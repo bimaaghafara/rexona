@@ -1,0 +1,262 @@
+body{
+	position: relative;
+	margin:0;
+	padding:0;
+	background:url("../img/game-bg-back.png") repeat-x center;
+	background-size: cover;
+	height: 625px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#wrapper {
+	position:relative;
+	width:100%;
+	height:600px;
+	cursor: default;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.barLogo{
+	width: 100px;
+	height: 100px;
+	background: url("../img/game-bar-logo.png") center;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,0);
+	z-index: 3;
+}
+
+.bubbles {
+	width: 130px;
+	height: 90px;
+	background: url("../img/game-bubble.png") center no-repeat;
+	opacity: 0; visibility: hidden;
+	position: absolute;
+	top:100px;
+	left: 50%;
+	z-index: 4;
+	cursor: url("../img/game-tap.png") 43 43,auto;
+}
+
+.score{
+	font: 15px bold Impact, Charcoal, sans-serif;
+	color: #6dbcd0;
+	position: absolute;
+	top: 425px;
+	left: 50%;
+	transform: translate(-50%,0);
+	z-index: 3;
+}
+
+#bicycle {
+  background:url("../img/game-bicycle.png") no-repeat center;    
+  position: absolute;
+  background-size: contain;
+  top:200px;
+  z-index:3;
+  width: 100%;
+  height: 200px;
+  min-height:200px;	
+}
+
+
+#bgFront {
+  background:url("../img/game-bg-front.png") repeat-x;    
+  position: absolute;
+  top:200px;
+  z-index:2;
+  width: 100%;
+  height: 192px;
+  min-height:192px;
+}
+
+.rex-bg--two-colors{
+	position:relative;
+	width:100%;
+	height: 100%;
+	color: #fff;
+}
+.rex-bg--one, .rex-bg--two{
+	/*float:left;
+	position:relative;
+	width:50%;*/
+	height:625px;
+}
+.rex-bg--one{
+	/*background: #6dceee;*/
+}
+.rex-bg--two{
+	/*background: #22a6d7;*/
+}
+
+.rex-bg-one--inner, .rex-bg-two--inner{
+	margin-top: 160px;
+	text-align: center;
+	z-index: 6;
+	position:relative;
+}
+.rex-button {
+	width: 30%;
+	color: #000;
+	text-transform: uppercase;
+	padding: 5px 35px;
+	border:3px solid #000;
+	background: transparent;
+	border-radius: 0;
+}
+.rex-social-button{
+	width: 100%;
+	border-radius: 0;
+	margin: 5px 0 ;
+}
+.rex-button.white-border{
+	color: #fff;
+	border-color: #fff;
+}
+
+#bicycle_rest {
+  background:url("../img/bike_man.png") no-repeat center;    
+  position: absolute;
+  background-size: contain;
+  top:170px;
+  z-index:3;
+  width: 100%;
+  height: 330px;
+  min-height:330px;	
+}
+
+.rex-sign-1{
+	background: url("../img/sign_1.png") no-repeat right top;
+	position: absolute;
+	background-size: contain;
+	width: 90%;
+	height: 110px;
+	min-height: 110px;
+	z-index: 3;
+	top: 420px;
+}
+.rex-sign-2{
+	background: url("../img/sign_2.png") no-repeat center top;
+	position: absolute;
+	background-size: contain;
+	width: 100%;
+	height: 210px;
+	min-height: 210px;
+	z-index: 3;
+	top: 440px;
+}
+.rex-sign-3{
+	background: url( '../img/hole.png') no-repeat center center ;
+	position: absolute;
+	background-size: contain;
+	width: 100%;
+	height: 60px;
+	min-height: 60px;
+	z-index: 3;
+	top: 460px;
+}
+#skor-teks{
+	text-transform: uppercase;
+}
+.login-teks{
+	font-weight: 700;
+}
+.rex-btn-login{
+	/* position:relative;
+	float:left;
+	width: 300px;
+	height: 100%;
+	text-align: center; */
+}
+
+
+/*.rex-bg-one--inner{
+	margin: 160px ;
+}*/
+/*	
+#progressBar{
+	position: absolute;
+	left: 50%;
+	top: 500px;
+	transform: translate(-50%,0);
+	z-index: 3;
+}
+
+.progressText{
+	position: absolute;
+	left: 50%;
+	top: 530px;
+	transform: translate(-50%,0);
+	z-index: 3;
+	color: #f66649;
+}
+
+progress[value] {
+  -webkit-appearance: none;
+	 -moz-appearance: none;
+		  appearance: none;
+  width: 250px;
+  height: 22px;
+}
+
+progress[value]::-webkit-progress-bar {
+  background-color: transparent;
+  border: 4px solid #c1cab1;
+  border-radius: 20px;
+  padding: 4px;
+  overflow: hidden;
+}
+
+progress[value]::-webkit-progress-value {
+  background-color: #ed401e;
+  border-radius: 20px;
+}
+*/
+
+.progress{
+	width: 250px;
+	height: 12px;
+	position: absolute;
+	border: 4px solid #c1cab1;
+	border-radius: 20px;
+	padding: 4px;
+	left: 50%;
+	top: 500px;
+	transform: translate(-50%,0);
+	z-index: 3;
+}
+
+#progressBar{
+	width: 100%;
+	height: 100%;
+	background-color: #ed401e;
+	border-radius: 20px;
+}
+
+.progressText{
+	position: absolute;
+	left: 50%;
+	top: 30px;
+	transform: translate(-50%,0);
+	z-index: 3;
+	color: #f66649;
+}
+
+footer{
+	font-family: 'arial', 'sans-serif';
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	background-color: #1d1d1d;
+}
+footer div{
+	font-size: 10px;
+	color: #fff;
+	padding: 10px;
+}
+footer a{color:#fff; text-decoration: none;}

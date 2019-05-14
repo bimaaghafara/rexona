@@ -1,0 +1,168 @@
+#rex-content{
+	margin-left: -15px;
+	margin-right: -15px;
+	min-height: 640px;
+}
+.rex-container-menu{
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+}
+.rex-menu-left, .rex-menu-right{
+	text-align: center;
+	padding-top: 40px;
+}
+.rex-logo{
+	text-align: center;
+}
+.rex-menu-item{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 700;
+	transition: all 0.2s ease;
+}
+.rex-menu-item:hover{
+	color: #ccc;
+	text-decoration: none;
+}
+.container-rex-footer{
+	background: #1e1e1e;
+	color: #fff;
+	padding: 15px 0 0 0;
+	z-index: 6;
+	position: relative;
+}
+#rex-bg-twocolors{
+	width: 100%;
+	height: 102%;
+	position: absolute;
+}
+#rex-bg-left, #rex-bg-right{
+	width: 50%;
+	float: left;
+	position: relative;
+	height: 100%;
+	min-height: 640px;
+}
+#rex-bg-left{
+	background: #6dceee;
+}
+#rex-bg-right{
+	background: #22a6d7;
+}
+.rex-bg-bike{
+	background: url('../img/bike_man.png') no-repeat center center;
+	width: 100%;
+	height: 100%;
+	min-height: 400px;
+	position: absolute;
+	top:53%;
+	transform: translate(0, -50%);
+}
+.rex-container-main{
+	padding-top:50px;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+}
+.rex-col-score--inner, .rex-col-login-form--inner{
+	text-align: center;
+}
+.rex-btn{
+	border-radius:0;
+	font-size:14px;
+}
+#score-text{
+	font-size: 28px;
+	text-transform: uppercase;
+}
+#score-number{
+	width:250px;
+	/*padding-top:40px;*/
+	margin:0 auto;
+}
+.btn-main-lagi{
+	width: 30%;
+	font-size:14px;
+	text-transform: uppercase;
+	font-weight: 500;
+	background: transparent;
+	color: #fff;
+	border: 3px solid #fff;
+	transition: all 0.5s ease;
+}
+.btn-main-lagi:hover{
+	color: #6dceee;
+	border: 3px solid #6dceee;
+	background: #fff;
+}
+.text-lihat-tutorial{
+	font-size: 12px;
+	text-decoration: underline;
+	color:#22a6d7;
+}
+.rex-col-login-form--inner{
+	padding-top: 50px;
+}
+.login-text{
+	width: 200px;
+	margin: 0 auto;
+	font-size: 12px;
+	margin-bottom: 25px;
+}
+.wrapper-btn-main{
+	padding: 40px 0 5px 0;
+}
+.wrapper-text-small{
+	padding: 5px 0;
+}
+.rex-social-button{
+	width: 100%;
+	border-radius: 0;
+	margin: 5px 0 ;
+}
+.rex-sign-1{
+	background: url("../img/sign_1.png") no-repeat right top;
+	position: absolute;
+	background-size: contain;
+	width: 90%;
+	height: 110px;
+	min-height: 110px;
+	z-index: 3;
+	top: 300px;
+}
+.rex-sign-2{
+	background: url("../img/sign_2.png") no-repeat 40px top;
+	position: absolute;
+	background-size: contain;
+	width: 100%;
+	height: 190px;
+	min-height: 190px;
+	z-index: 3;
+	top: 320px;
+}
+.rex-sign-3{
+	background: url( '../img/hole.png') no-repeat 118px center ;
+	position: absolute;
+	background-size: contain;
+	width: 100%;
+	height: 60px;
+	min-height: 60px;
+	z-index: 3;
+	top: 370px;
+}
+.rex-copyright{
+	color: #fff;
+	font-size: 12px;
+	font-family: 'Open Sans', sans-serif;
+}
+.rex-footer-social{
+	text-align: right;
+	margin-top:-7px;
+}
+.rex-footer-social a{
+	color: #fff;
+	/*font-size: 12px;*/
+}
+.rex-footer-social a:hover{
+	text-decoration: none;
+}
